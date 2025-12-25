@@ -1,0 +1,13 @@
+# Node
+node_modules/
+*/node_modules/
+
+# Environment
+.env
+
+# Build output
+dist/
+build/
+
+# Backend
+target/

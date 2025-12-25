@@ -1,0 +1,52 @@
+.face{
+    width:400px;
+    height:400px;
+    background-color:yellow;
+    border-radius: 50%;
+    border:solid darkgoldenrod;
+    box-shadow:2px 5px 10px darkgoldenrod;
+}
+.mouth{
+    width:200px;
+    height:75px;
+    background-color: brown;
+    border-radius:0 0 180px 180px;
+    position:absolute;
+    top:250px;
+    left:100px;
+    border:solid rgb(0, 0, 0);
+    box-shadow:2px 5px 10px brown;
+}
+.eye1{
+    width:80px;
+    height:80px;
+    background-color: brown;
+    border-radius: 50%;
+    position:absolute;
+    top:100px;
+    left:100px;
+    border:solid rgb(0, 0, 0);
+    box-shadow:2px 5px 10px brown;
+
+}
+.eye2{
+    width:80px;
+    height:80px;
+    background-color: brown;
+    border-radius: 50%;
+    position:absolute;
+    top:100px;
+    left:220px;
+    border:solid rgb(0, 0, 0);
+    box-shadow:2px 5px 10px brown;
+}
+.eye1:hover{
+    transition:1s;
+    background-color:chocolate;
+    box-shadow:2px 2px 7px mediumspringgreen;
+}
+.eye2:hover{
+    transition:1s;
+    background-color:chocolate;
+    box-shadow:2px 2px 7px mediumspringgreen;
+}

@@ -1,0 +1,55 @@
+div{
+    border:solid black;
+    margin:4px;
+    height:100px;
+    width:300px;
+
+}
+#One{
+    background-color:aquamarine;
+    transform:rotate(30deg);
+}
+#Two{
+    background-color:wheat;
+    transform:rotate(30deg);
+    position:absolute;
+    top:200px;
+    left:500px;
+    
+
+}
+#Three{
+    background-color:brown;
+    transform:scaley(1.5);
+    border-radius: 5px;
+    box-shadow:2px 4px 5px rosybrown
+}
+#Three:hover{
+    transition:1s;
+    box-shadow: 2px 9px 10px blue;
+}
+#Four{
+   background-size:cover;
+    background-color:blanchedalmond;
+    transform:translate(500px,50px);
+    box-shadow:20px 20px 100px blue;
+    background-image:url("photo_2025-01-08_21-14-37.jpg");
+    position:relative;
+    top:300px;
+    left:50px;
+
+
+}
+#Five{
+    background-color:mediumpurple;
+    box-shadow:20px 20px 100px yellow;
+    position:absolute;
+    top:900px;
+    left:500px;
+}
+#Six{
+    background-color:midnightblue;
+    transform:rotate(30deg);
+    position:fixed;
+   
+}
